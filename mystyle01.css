@@ -1,0 +1,97 @@
+/* main content areas*/
+#container{
+    max-width:1200px;
+    margin: 0 auto;
+}
+header#maintitle {
+    width:75%;
+    padding:4% 17% 0% 8%;
+   
+  /*border: 1px solid;*/
+}
+
+/* altered padding so that more at top than at bottom*/
+h1{
+    
+    /*font-size:40px;*/
+    color: #7b3438;
+}
+h2,h3{
+    color: #bea318;
+    
+}
+nav{
+    text-align:left;
+    width: 94%;
+    padding: 0% 3% 0% 3%;
+    background-color: #fff;
+}
+#content{
+    width:45%;
+    padding:3% 17% 3% 8%;
+    background-color: #fff;
+    float: left;
+}
+aside#sidebar{
+    float:right;
+    padding:3%;
+    width:24%;
+   /*background-color:#0A9FC0;*/ 
+}
+footer {
+    clear:both;
+    width:94%;
+    padding: 3%;
+    background-color:#fdda24;
+}
+/*  navagation*/  
+nav ul li{
+    display: inline-block;
+    padding: 15px 1.5% 15px 1.5%;
+      /*background-color:#0A9FC0;*/
+    margin:0.5%;
+    border-top: 1px solid #fdda24;
+    border-bottom: 1px solid #fdda24;
+}
+nav ul li a{
+   text-decoration: none;
+   font-size: 1.2em;
+}
+nav ul li a:link{
+    color:#bba318;
+}
+nav ul li a:visited{
+    color:#bba318;
+}
+nav ul li a:hover{
+    color:#972815;
+}
+
+nav ul li a:active{
+    color:#b19819;
+}
+/* media screen sizes*/
+@media all and (max-width :768px){
+    header{
+        text-align:center;
+    }
+    nav
+    {
+        text-align: center;
+    }
+    #content{
+        width: 76%;
+        padding: 3% 12% 3% 12%;
+        display:none;
+    }
+    aside#sidebar{
+       
+        display:none;
+        
+        
+    }
+    nav ul li{
+        display:block;
+        width:94%;
+    }
+}
